@@ -1,0 +1,48 @@
+body{
+        background-image: url("../img/bg1.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+.heading{
+        text-align: center;
+        font-size: 8vh;
+        color: #333;
+}
+div {
+        border: grey 1vh outset;
+        padding: 1vh
+}
+div#ifeanyi1 > section {
+        display:none;
+        margin:0px auto;
+        }
+        
+        div#ifeanyi1 > section.visible {
+        display: block;
+        position:relative;
+        overflow:hidden;
+        }
+        
+        div#ifeanyi1 > section{
+        display: none;
+        color: white;
+        }
+        div#ifeanyi1 > section.visible {
+        display:block;
+        text-align:center;
+        font-weight:bold;
+        font-size:6vh;
+        }
+        
+         #ifeanyi1 > img {
+          width: 800px;
+          height: 533px;
+        }
+       figure > img {
+         width: 100%;
+       }
